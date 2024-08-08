@@ -2,10 +2,10 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: 5-demo-source-git-bb-app
+  name: 8-demo-source-git-bb-app
   namespace: flux-system
 spec:
   interval: 1m0s
   ref:
-    branch: 5-demo
+    branch: 8-demo
   url: https://github.com/vijay111083/bb-app-source.git
